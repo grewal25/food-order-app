@@ -1,3 +1,5 @@
+import MealItemForm from "./MealItemForm"
+
 const MealItem =props=>{
     const price = `$${props.price.toFixed(2)}`
     return (
@@ -6,7 +8,7 @@ const MealItem =props=>{
             <div>{props.description}</div>
             <div>{price}</div>
             <div>
-                
+                <MealItemForm />
             </div>
         </li>
     )

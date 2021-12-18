@@ -6,7 +6,7 @@ const Header = props =>{
         <div>
             <header>
                 <h1>FOOD APP</h1>
-                <HeaderCardButton />
+                <HeaderCardButton onClick={props.onShowCart}/>
                 <button>Cart</button>
             </header>
             <div>
