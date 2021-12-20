@@ -1,7 +1,11 @@
 import mealsImage from '../../assets/meals.jpeg'
 import HeaderCardButton from './HeaderCardButton'
 
+
 const Header = props =>{
+    
+
+    
     return (
         <div>
             <header>
@@ -12,6 +16,7 @@ const Header = props =>{
             <div>
                 <img src={mealsImage} alt="food image"/>
             </div>
+            
         </div>
     )
 }
